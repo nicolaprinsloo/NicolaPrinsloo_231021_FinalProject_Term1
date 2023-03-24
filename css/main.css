@@ -102,7 +102,7 @@ header{
     text-align: center;
     padding-top: 18px;
     float: left;
-    margin-left: 100px;
+    margin-left: 30px;
 }
 
 .text{
@@ -147,6 +147,59 @@ header{
     margin-bottom: 40px;
 }
 
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: #f7f7f7;
+    padding-left: 122px;
+    padding-top: 60px;
+    padding-bottom: 100px;
+}
+
+.social-con{
+    margin-right: 110px;
+}
+
+.socials1{
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+    margin-right: 1%;
+    background-image: url("../assets/youtube.svg");
+    background-position: center;
+    background-size: cover;
+}
+
+.socials2{
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+    margin-right: 1%;
+    background-image: url("../assets/facebook.svg");
+    background-position: center;
+    background-size: cover;
+}
+
+.socials3{
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+    margin-right: 1%;
+    background-image: url("../assets/twitter.svg");
+    background-position: center;
+    background-size: cover;
+}
+
+.socials4{
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+    margin-right: 1%;
+    background-image: url("../assets/instagram.svg");
+    background-position: center;
+    background-size: cover;
+}
+
 .albuminfo{
     margin-bottom: 100px;
 }
@@ -189,58 +242,45 @@ select, button{
     width: 95% !important;
 }
 
-footer{
-    width: 100%;
-    height: 100px;
-    background-color: pink;
-    padding-left: 122px;
-    padding-top: 60px;
-    padding-bottom: 100px;
-}
-
-.social-con{
+.favs{
+    width: 400px;
+    height: 470px;
+    background-color: lightgrey;
+    color: white;
+    margin-left: 100px;
+    margin-top: 100px;
+   
     
 }
 
-.socials1{
-    width: 30px;
-    height: 30px;
-    margin-bottom: 10px;
-    margin-right: 5%;
-    background-image: url("../assets/email_icon.svg");
-    background-position: center;
-    background-size: cover;
+.album{
+    text-align: center;
+    padding-top: 200px;
 }
 
-.socials2{
-    width: 30px;
-    height: 30px;
-    margin-bottom: 10px;
-    margin-right: 5%;
-    background-image: url("");
-    background-position: center;
-    background-size: cover;
+/* .playlist{
+    margin-right: -100px;
+} */
+
+.songs{
+    width: 60%;
+    height: 60px;
+    margin-right: 100px;
+    margin-left: 100px;
+    padding-top: 16px;
+    border-bottom: 3px solid black;
 }
 
-.socials3{
-    width: 30px;
-    height: 30px;
-    margin-bottom: 10px;
-    margin-right: 5%;
-    background-image: url("");
-    background-position: center;
-    background-size: cover;
+.song-header{
+    width: 40%;
+    margin-top: 100px;
+    margin-bottom: 40px;
+    margin-left: 100px; 
 }
 
-.socials4{
-    width: 30px;
-    height: 30px;
-    margin-bottom: 10px;
-    margin-right: 5%;
-    background-image: url("");
-    background-position: center;
-    background-size: cover;
+.song-subtitle{
+    width: 60%;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    margin-left: 100px;
 }
-
-
-
