@@ -1,17 +1,78 @@
-nav{
-    width: 1440px;
+.nav{
+    width: 100%;
     height: 80px;
     background-color: lightgrey;
     padding-left: 10%;
     padding-right: 10%;
-    padding-top: 20px;
+    padding-top: 30px;
+}
+
+nav{
+    width: 100%;
+    height: 100px;
+    background-color: lightgrey;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 30px;
+}
+
+.logo{
+    color: black;
+    /* margin-left: -100px; */
+    font-size: larger;
+    margin-top: 10px
+}
+
+.nav-con{
+    color: black;
+    float: right;
+    margin-top: 10px;
+}
+
+.nav-con ul{
+    list-style: none;
+}
+
+nav ul{
+    list-style: none;
+}
+
+.ul a{
+    color: white;
+    text-decoration: none;
+}
+
+.nav-con li{
+    float: left;
+    padding-right: 40px;
+}
+
+nav li{
+    float: left;
+    padding-right: 40px;
+}
+
+.search-btn{
+    width: 255px;
+    height: 50px;
+    font-size: 15px;
+    background-color: none;
+    color: black;
+    border: 2px solid black;
+    border-radius: 40px;
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-left: 100px;
 }
 
 header{
-    width: 1440px;
+    width: 100%;
     height: 840px;
     background-color: lightgrey;
     color: black;
+}
+
+.header-con{
     padding-left: 150px;
     padding-right: 20px;
     padding-top: 150px;
@@ -41,7 +102,7 @@ header{
     text-align: center;
     padding-top: 18px;
     float: left;
-    
+    margin-left: 100px;
 }
 
 .text{
@@ -65,26 +126,121 @@ header{
     margin-top: -60px;
 }
 
-.col-box1{
-    width: 227px;
-    height: 227px;
-    background-color: grey;
+.subtitle-1{
+    margin-left: 122px;
+    margin-right: 122px;
+    margin-bottom: 70px;
+    margin-top: 70px;
+}
+.subtitle-2{
+    margin-left: 122px;
+    margin-right: 122px;
+    margin-bottom: 70px;
+    margin-top: 70px;
 }
 
-.col-box2{
-    width: 227px;
-    height: 227px;
+.box{
+    width: 270px;
+    height: 270px;
     background-color: grey;
+    margin-right: 3%;
+    margin-bottom: 40px;
 }
 
-.col-box3{
-    width: 227px;
-    height: 227px;
+.albuminfo{
+    margin-bottom: 100px;
+}
+
+.typo{
+    width: 400px;
+    height: 600px;
+    margin-left: 10%;
+    margin-top: 100px;
+}
+
+.vorm{
+    
+}
+
+form{
+    width: 80%;
+    height: 600px;
+    margin: 0 auto;
+    margin-top: 100px;
     background-color: grey;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 25px;
+    padding-bottom: 40px;
+}
+
+.input-el{
+    width: 90%;
+    height: 50px;
+    margin-top: 10px;
+    padding-left: 15px;
+    border: none;
+    border-radius: 20px;
+    background-color: lightgrey;
+    margin-top: 45px;
+}
+
+select, button{
+    width: 95% !important;
 }
 
 footer{
-    width: 1440px;
+    width: 100%;
     height: 100px;
-    background-color: white;
+    background-color: pink;
+    padding-left: 122px;
+    padding-top: 60px;
+    padding-bottom: 100px;
 }
+
+.social-con{
+    
+}
+
+.socials1{
+    width: 30px;
+    height: 30px;
+    margin-bottom: 10px;
+    margin-right: 5%;
+    background-image: url("../assets/email_icon.svg");
+    background-position: center;
+    background-size: cover;
+}
+
+.socials2{
+    width: 30px;
+    height: 30px;
+    margin-bottom: 10px;
+    margin-right: 5%;
+    background-image: url("");
+    background-position: center;
+    background-size: cover;
+}
+
+.socials3{
+    width: 30px;
+    height: 30px;
+    margin-bottom: 10px;
+    margin-right: 5%;
+    background-image: url("");
+    background-position: center;
+    background-size: cover;
+}
+
+.socials4{
+    width: 30px;
+    height: 30px;
+    margin-bottom: 10px;
+    margin-right: 5%;
+    background-image: url("");
+    background-position: center;
+    background-size: cover;
+}
+
+
+
