@@ -1,7 +1,7 @@
 .nav{
     width: 100%;
     height: 80px;
-    background-color: lightgrey;
+   
     padding-left: 10%;
     padding-right: 10%;
     padding-top: 30px;
@@ -10,7 +10,7 @@
 nav{
     width: 100%;
     height: 100px;
-    background-color: lightgrey;
+    background-color: #71919D;
     padding-left: 10%;
     padding-right: 10%;
     padding-top: 30px;
@@ -49,7 +49,7 @@ nav ul{
 }
 
 .nav-con li:hover{
-    color: green;
+    color: #B3CED5;
 }
 
 nav li{
@@ -58,16 +58,16 @@ nav li{
 }
 
 nav li:hover{
-    color: green;
+    color: #B3CED5;
 }
 
 .search-btn{
     width: 255px;
     height: 50px;
     font-size: 15px;
-    background-color: lightgrey;
+    background-color: transparent;
     color: black;
-    border: 2px solid black;
+    border: 2px solid #B3CED5;
     border-radius: 40px;
     padding-left: 10px;
     padding-top: 10px;
@@ -77,12 +77,12 @@ nav li:hover{
 header{
     width: 100%;
     height: 840px;
-    background-color: lightgrey;
+    background-image: url('../assets/forkingandcountryhead.jpg');
     color: black;
 }
 
 .header-con{
-    padding-left: 150px;
+    padding-left: 200px;
     padding-right: 20px;
     padding-top: 150px;
 }
@@ -91,13 +91,20 @@ header{
     width: 225px;
     height: 70px;
     font-size: 20px;
-    background-color: black;
+    background-color: #00252F;
     color: white;
-    border: 2px solid black;
+    border: 2px solid #00252F;
     border-radius: 40px;
     text-align: center;
     padding-top: 18px;
     float: left;
+    margin-top: 20px;
+}
+
+.normal-btn:hover{
+    background-color: transparent;
+    color: #02394B;
+    border: 2px solid #02394B;
 }
 
 .inverted-btn{
@@ -105,20 +112,27 @@ header{
     height: 70px;
     font-size: 20px;
     background-color: none;
-    color: black;
-    border: 2px solid black;
+    color: #00252F;
+    border: 2px solid #00252F;
     border-radius: 40px;
     text-align: center;
     padding-top: 18px;
     float: left;
-    margin-left: 30px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.inverted-btn:hover{
+    background-color: #02394B;
+    color: white;
+    border: 2px solid #02394B;
 }
 
 .text{
     width: 640px;
     height: 560px;
-    background-color: lightgrey;
-    color: black;
+    background-color: #02394B;
+    color: white;
     float: left;
     margin-left: 700px;
     margin-top: -60px;
@@ -126,14 +140,27 @@ header{
     padding-top: 100px;
 }
 
-.text p{
+.text p,h2{
+    padding-left: 30px;
     width: 450px;
+}
+
+.arrows{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: none;
+    background-image: url("../assets/left_right_arrow_icon.svg");
+    background-size: cover;
+    background-position: center;
+    margin-top:50px;
+    margin-left: 280px;
 }
 
 .vid{
     width: 640px;
     height: 390px;
-    background-color: grey;
+    /* background-color: white; */
     float: left;
     margin-left: -1200px;
     margin-top: -60px;
@@ -160,10 +187,84 @@ header{
     margin-bottom: 40px;
 }
 
+.album1{
+    background-image: url("../assets/album11.jpeg");
+    background-position: center;
+    background-size: cover;
+}
+
+.album2{
+    background-image: url("../assets/album2.jpeg");
+    background-position: center;
+    background-size: cover;
+}
+
+.album3{
+    background-image: url("../assets/album3.jpeg");
+    background-position: center;
+    background-size: cover;
+}
+
+.album4{
+    background-image: url("../assets/album4.jpeg");
+    background-position: center;
+    background-size: cover;
+}
+
+.album5{
+    background-image: url("../assets/album5.jpeg");
+    background-position: center;
+    background-size: cover;
+}
+
+.album6{
+    background-image: url("../assets/album6.jpeg");
+    background-position: center;
+    background-size: cover;
+}
+
+.album7{
+    background-image: url("../assets/album7.jpeg");
+    background-position: center;
+    background-size: cover;
+}
+
+.album8{
+    background-image: url("../assets/album8.jpeg");
+    background-position: center;
+    background-size: cover;
+}
+
+.album9{
+    background-image: url("../assets/album9.jpeg");
+    background-position: center;
+    background-size: cover;
+}
+
+.album10{
+    background-image: url("../assets/album10.jpeg");
+    background-position: center;
+    background-size: cover;
+}
+
+.album11{
+    background-image: url("../assets/album1.jpeg");
+    background-position: center;
+    background-size: cover;
+}
+
+.album12{
+    background-image: url("../assets/album12.jpeg");
+    background-position: center;
+    background-size: cover;
+}
+
 footer{
     width: 100%;
     height: 100px;
-    background-color: #f7f7f7;
+    background-color: #71919D;
+    color: white;
+    font-size: 20px;
     padding-left: 122px;
     padding-top: 60px;
     padding-bottom: 100px;
@@ -233,7 +334,8 @@ form{
     height: 600px;
     margin: 0 auto;
     margin-top: 100px;
-    background-color: grey;
+    background-color: #AACFD7;
+    color: #02394B;
     padding-left: 5%;
     padding-right: 5%;
     padding-top: 25px;
@@ -247,19 +349,45 @@ form{
     padding-left: 15px;
     border: none;
     border-radius: 20px;
-    background-color: lightgrey;
+    background-color: #71919D;
+    color: #02394B;
     margin-top: 45px;
 }
 
-select, button{
-    width: 95% !important;
+.normal-btn2{
+    width: 225px;
+    height: 70px;
+    font-size: 20px;
+    background-color: #02394B;
+    color: white;
+    border: 2px solid #02394B;
+    border-radius: 40px;
+    text-align: center;
+    padding-top: 18px;
+    float: left;
+    margin-left: 45%;
+    margin-top: 5%;
 }
+
+.normal-btn2:hover{
+    background-color: transparent;
+    color: #02394B;
+    border: 2px solid #02394B;
+}
+
+
+
+/* select, button{
+    width: 95% !important;
+    
+} */
 
 .favs{
     width: 400px;
     height: 550px;
-    background-color: lightgrey;
-    color: white;
+    background-image: url("../assets/channels4_profile.jpg");
+    background-position: center;
+    background-size: cover;
     margin-left: 100px;
     margin-top: 100px;
 }
@@ -267,6 +395,9 @@ select, button{
 .album{
     text-align: center;
     padding-top: 200px;
+    margin: 0 auto;
+    color: white;
+    font-weight: bold;
 }
 
 /* .playlist{
@@ -301,6 +432,14 @@ select, button{
     margin-top: -10px !important;
 }
 
+.current{
+    width: 20px;
+    height: 30px;
+    background-image: url("../assets/currently_playing_icon.svg");
+    background-position: center;
+    background-size: cover;
+}
+
 .playbar{
     width: 80%;
     margin-top: 120px;
@@ -309,19 +448,28 @@ select, button{
     border-bottom: 4px solid grey;
 }
 
+.playbar2{
+    width: 15%;
+    margin-top: 120px;
+    margin-right: 10%;
+    border-bottom: 4px solid #8ad2d8;
+}
+
 .circle{
     width: 40px;
     height: 40px;
     border-radius: 40px;
-    background-color: grey;
-    margin-bottom: -20px;
-    margin-left: 50px;
+    background-color: #8ad2d8;
+    margin-bottom: -22px;
+    margin-left: 150px;
 }
 
 .frame{
-    width: 50px;
-    height: 50px;
-    background-color: grey;
+    width: 70px;
+    height: 70px;
+    background-image: url("../assets/02769-forkingandcountry_f.jpg");
+    background-position: center;
+    background-size: cover;
     margin-left: 122px;
     margin-right: 5%;
     float: left;
@@ -331,31 +479,57 @@ select, button{
     width: 50px;
     height: 50px;
     border-radius: 50px;
-    border: 2px solid grey;
-    margin-left: 5%;
+    border: none;
+    margin-left: 30%;
     margin-right: 3%;
+    background-image: url('../assets/ppprevious_icon.svg');
+    background-position: center;
+    background-size: cover;
 }
 
 .pause-button{
-    width: 70px;
-    height: 70px;
+    width: 75px;
+    height: 75px;
     border-radius: 70px;
-    border: 2px solid grey;
-    margin-left: 15%;
+    border: none
+    margin-left: 3%;
     margin-right: 3%;
     margin-top: -10px;
+    background-image: url('../assets/pause_iconnew.svg');
+    background-position: center;
+    background-size: cover;
 }
 
 .next-button{
     width: 50px;
     height: 50px;
     border-radius: 50px;
-    border: 2px solid grey;
-    margin-left: 28%;
+    border: none;
+    margin-left: 2%;
     margin-right: 3%;
+    background-image: url('../assets/nnext_icon\ copy.svg');
+    background-position: center;
+    background-size: cover;
+}
+
+.timestamp{
+    padding-top: 10px;
+}
+
+.dots{
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    border: none;
+    background-image: url('../assets/dots.svg');
+    background-position: center;
+    background-size: cover;
+    margin-right: 50px;
+    /* margin-left: 5%; */
 }
 
 .bar{
     margin-top: 100px;
     margin-bottom: 50px;
 }
+
