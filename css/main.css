@@ -585,6 +585,10 @@ form{
     color: #71919D;
 }
 
+.song-header:hover{
+    cursor: pointer;
+}
+
 .song-subtitle{
     font-weight: bold;
     width: 80%;
@@ -682,6 +686,10 @@ form{
     padding-right: 10px;
 }
 
+.back-button:hover{
+    cursor: pointer;
+}
+
 .pause-button{
     width: 120px;
     height: 120px;
@@ -693,6 +701,10 @@ form{
    
 }
 
+.pause-button:hover{
+    cursor: pointer;
+}
+
 .next-button{
     width: 80px;
     height: 80px;
@@ -702,6 +714,10 @@ form{
     padding-right: 10px;
     /* margin-right: 3%; */
     
+}
+
+.next-button:hover{
+    cursor: pointer;
 }
 
 .timestamp{
