@@ -153,6 +153,16 @@ header{
     float: left;
     margin-top: 20px;
     margin-left: 20px;
+    background-image: url("../assets/heart_icon.svg");
+    background-position: center;
+    background-size: cover;
+}
+
+.heart-image:hover{
+    cursor: pointer;
+    background-image: url("../assets/heart_icon\ copy.svg");
+    background-position: center;
+    background-size: cover;
 }
 
 .text{
@@ -197,16 +207,15 @@ header{
 }
 
 .subtitle-1{
-    margin-left: 122px;
-    margin-right: 122px;
+    margin-left: 150px;
     margin-bottom: 70px;
     margin-top: 70px;
     font-family: 'Anton', sans-serif;
     color: #02394B;
 }
+
 .subtitle-2{
-    margin-left: 122px;
-    margin-right: 122px;
+    margin-left: 150px;
     margin-bottom: 70px;
     margin-top: 70px;
     font-family: 'Anton', sans-serif;
@@ -488,33 +497,18 @@ form{
     margin-top: 45px;
 }
 
-/* .normal-btn2{
-    width: 225px;
-    height: 70px;
-    font-size: 20px;
-    background-color: #02394B;
-    color: white;
-    border: 2px solid #02394B;
-    border-radius: 40px;
-    text-align: center;
-    padding-top: 18px;
-    float: left;
-    margin-left: 45%;
-    margin-top: 5%;
-    font-family: 'Montserrat', sans-serif;
-} */
-
 .input-ell{
     width: 200px;
     height: 70px;
     background-color:#02394B;
-    color: white;
+    color: #AACFD7;
     border: none;
     border-radius: 40px;
     margin-top: 30px;
     margin-left: 255px;
-    padding-top: .50%;
+    padding-top: 10px;
     font-weight: bold;
+    font-family: 'Anton', sans-serif;
 }
 
 .input-ell:hover{
@@ -522,13 +516,6 @@ form{
     color: #02394B;
     border: 2px solid #02394B;
 }
-
-
-
-/* select, button{
-    width: 95% !important;
-    
-} */
 
 .favs{
     width: 30%;
