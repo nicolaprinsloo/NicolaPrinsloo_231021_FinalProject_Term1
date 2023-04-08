@@ -242,7 +242,6 @@ header{
 .icon2{
     width: 60px;
     height: 60px;
-    /* background-color: #71919D; */
     border-radius: 50%;
     margin: 0 auto;
     margin-top: -140px;
@@ -269,6 +268,14 @@ header{
     float: right;
     margin-top: -45px;
     margin-right: 10px;
+}
+
+.second-heart:hover{
+    cursor: pointer;
+    background-image: url("../assets/heart_icon\ copy.svg");
+    background-position: center;
+    background-size: cover;
+    opacity: 1;
 }
 
 .box{
@@ -559,10 +566,6 @@ form{
     margin-top: 200px;
 }
 
-/* .playlist{
-    margin-right: -100px;
-} */
-
 .song-header{
     width: 50%;
     margin-top: 100px;
@@ -608,8 +611,8 @@ form{
 
 .player-line{
     width: 1400px;
-    height: 100px;
-    margin-top: 150px;
+    height: 50px;
+    margin-top: 130px;
     padding-left: 120px;
 }
 
@@ -620,7 +623,7 @@ form{
 }
 
 .inner-line{
-    width: 40%;
+    width: 20%;
     height: 5px;
     background-color: #9bceda;
 }
@@ -631,18 +634,13 @@ form{
     border-radius: 50%;
     background-color: #9bceda;
     margin: 0 auto;
-    margin-left: 40%;
+    margin-left: 20%;
     margin-top: -12px;
 }
 
 .bar{
     width: 100%;
-    height: 200px;
-    padding-top: 60px;
-    /* margin-bottom: 40px;
-    margin-top: 20px; */
-    background-color: #B3CED5;
-    border-radius: 2%;
+    height: 100px;
     color: white;
 }
 
@@ -682,7 +680,6 @@ form{
     height: 120px;
     border-radius: 50%;
     border: none
-    /* margin-left: 3%; */
     margin-right: 3%;
     margin-top: -20px;
    
@@ -699,8 +696,6 @@ form{
     border: none;
     margin-left: 10px;
     padding-right: 10px;
-    /* margin-right: 3%; */
-    
 }
 
 .next-button:hover{
