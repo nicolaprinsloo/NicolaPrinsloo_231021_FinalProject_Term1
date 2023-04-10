@@ -371,6 +371,13 @@ footer{
     font-family: 'Anton', sans-serif;
 }
 
+.flogo{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-top: -15px;
+}
+
 .social-con{
     margin-right: 110px;
 }
@@ -380,10 +387,6 @@ footer{
     height: 40px;
     margin-bottom: 10px;
     margin-right: 1%;
-    background-image: url("../assets/youtube_icon.svg");
-    background-position: center;
-    background-size: cover;
-    margin-right: 15px;
 }
 
 .socials2{
@@ -391,10 +394,6 @@ footer{
     height: 40px;
     margin-bottom: 10px;
     margin-right: 1%;
-    background-image: url("../assets/facebook_icon.svg");
-    background-position: center;
-    background-size: cover;
-    margin-right: 15px;
 }
 
 .socials3{
@@ -402,10 +401,6 @@ footer{
     height: 40px;
     margin-bottom: 10px;
     margin-right: 1%;
-    background-image: url("../assets/twitter_icon.svg");
-    background-position: center;
-    background-size: cover;
-    margin-right: 15px;
 }
 
 .socials4{
@@ -413,9 +408,6 @@ footer{
     height: 40px;
     margin-bottom: 10px;
     margin-right: 1%;
-    background-image: url("../assets/instagram_icon.svg");
-    background-position: center;
-    background-size: cover;
 }
 
 .album-info{
@@ -577,6 +569,11 @@ form{
 
 .song-header:hover{
     cursor: pointer;
+}
+
+.chosen{
+    font-weight: bold;
+    border-bottom: 2px solid #02394B;
 }
 
 .song-subtitle{
