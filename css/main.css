@@ -288,7 +288,7 @@ header{
 }
 
 .album1{
-    background-image: url("../assets/album11.jpeg");
+    background-image: url("../assets/album1.jpeg");
     background-position: center;
     background-size: cover;
 }
@@ -306,7 +306,7 @@ header{
 }
 
 .album4{
-    background-image: url("../assets/album4.jpeg");
+    background-image: url("../assets/album4.webp");
     background-position: center;
     background-size: cover;
 }
@@ -324,7 +324,7 @@ header{
 }
 
 .album7{
-    background-image: url("../assets/album7.jpeg");
+    background-image: url("../assets/album7.png");
     background-position: center;
     background-size: cover;
 }
@@ -348,7 +348,7 @@ header{
 }
 
 .album11{
-    background-image: url("../assets/album1.jpeg");
+    background-image: url("../assets/album11.jpeg");
     background-position: center;
     background-size: cover;
 }
@@ -644,7 +644,7 @@ form{
 .frame{
     width: 80px;
     height: 80px;
-    background-image: url("../assets/ccover.jpg");
+    background-image: url("../assets/playing\ cover.webp");
     background-position: center;
     background-size: cover;
     border-radius: 5%;
