@@ -583,6 +583,7 @@ form{
     margin-bottom: 30px;
     margin-left: 100px;
     font-family: 'Playfair Display', serif;
+    color: #02394B;
 }
 
 .songs{
@@ -593,11 +594,20 @@ form{
     padding-top: 22px;
     border-bottom: 3px solid #71919D;
     font-family: 'Montserrat', sans-serif;
+    color: #02394B;
+}
+
+.songs:hover{
+    cursor: pointer;
 }
 
 .song{
     margin-top: -10px !important;
     font-family: 'Montserrat', sans-serif;
+}
+
+.song:hover{
+    cursor: pointer;
 }
 
 .current{
@@ -633,6 +643,10 @@ form{
     margin: 0 auto;
     margin-left: 20%;
     margin-top: -12px;
+}
+
+.circle:hover{
+    cursor: pointer;
 }
 
 .bar{
@@ -711,5 +725,7 @@ form{
     margin-left: -30px;
 }
 
-
+.dots:hover{
+    cursor: pointer;
+}
 
